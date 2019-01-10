@@ -1,5 +1,5 @@
 function fetchBooks() {
- fetch("https://anapioficeandfire.com/api/books")
+ fetch("http://api.open-notify.org/astros.json")
   .then((resp) => resp.json())
   .then((json) => console.log(json));
 }
